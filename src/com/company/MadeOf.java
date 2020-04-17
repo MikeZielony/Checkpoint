@@ -4,6 +4,7 @@ public class MadeOf {
     String material;
 
     public String getMaterial() {
+
         return material;
     }
 

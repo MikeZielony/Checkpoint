@@ -26,8 +26,7 @@ public abstract class Tool implements PrintSound, PrintEmit {
             }
         }
 
-
-    public String emits(Tool tool) {
+        public String emits(Tool tool) {
         if(tool.getTypeOfTool().equals("hammer")) {
             return "Bang";
         }else if (tool.getTypeOfTool().equals("drill")) {
@@ -36,6 +35,4 @@ public abstract class Tool implements PrintSound, PrintEmit {
             return "Slosh, slosh...";
         }
     }
-
-
 }

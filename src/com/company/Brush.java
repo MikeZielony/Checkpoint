@@ -26,8 +26,6 @@ public class Brush extends Tool {
         return "Slosh, slosh...";
     }
 
-
-
     @Override
     public void printEmit(Tool tool) {
         System.out.println(emits(tool));

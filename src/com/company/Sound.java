@@ -3,6 +3,7 @@ package com.company;
 import com.company.interfaces.PrintEmit;
 
 public class Sound implements PrintEmit {
+
     public Sound() {
     }
 

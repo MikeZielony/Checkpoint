@@ -10,26 +10,18 @@ public class Drill extends Tool  {
         super(typeOfTool, madeOf);
     }
 
-
-
-
     @Override
     public String emits(Tool tool) {
         return null;
     }
 
-
     @Override
     public void printSound(MadeOf madeOf) {
         System.out.println(makeSound(madeOf, material1, material2,message1, message2));
-
-
     }
-
-
 
     @Override
     public void printEmit(Tool tool) {
-
+        System.out.println(emits(tool));
     }
 }

@@ -30,8 +30,6 @@ public class Main {
         brush.printSound(madeOf3);
         brush.printSound(madeOf4);
 
-
-
         sound.printEmit(hammer);
         sound.printEmit(drill);
         sound.printEmit(brush);
