@@ -30,4 +30,9 @@ public class Hammer extends Tool {
 
 
     }
+
+    @Override
+    public void printEmit(Tool tool) {
+
+    }
 }

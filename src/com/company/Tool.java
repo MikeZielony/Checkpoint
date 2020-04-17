@@ -1,8 +1,9 @@
 package com.company;
 
+import com.company.interfaces.PrintEmit;
 import com.company.interfaces.PrintSound;
 
-public abstract class Tool implements PrintSound {
+public abstract class Tool implements PrintSound, PrintEmit {
     String typeOfTool = "";
     String madeOf = "";
 
