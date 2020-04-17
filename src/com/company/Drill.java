@@ -3,6 +3,8 @@ package com.company;
 public class Drill extends Tool  {
     String material1 = "Wood";
     String material2 = "wall";
+    String message1 ="Furniture stapler";
+    String message2 ="Picture hanger";
 
     public Drill(String typeOfTool, String madeOf) {
         super(typeOfTool, madeOf);
@@ -10,16 +12,6 @@ public class Drill extends Tool  {
 
 
 
-    @Override
-    public String makeSound(MadeOf madeOf, String material1, String material2) {
-        if (madeOf.getMaterial().equals(material1)) {
-            return "Furniture stapler";
-        } else if (madeOf.getMaterial().equals(material2)){
-            return "Picture hanger";
-        }else{
-            return "Silence";
-        }
-    }
 
     @Override
     public String emits(Tool tool) {
@@ -29,7 +21,7 @@ public class Drill extends Tool  {
 
     @Override
     public void printSound(MadeOf madeOf) {
-        System.out.println(makeSound(madeOf, material1, material2));
+        System.out.println(makeSound(madeOf, material1, material2,message1, message2));
 
 
     }
