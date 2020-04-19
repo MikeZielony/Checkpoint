@@ -10,25 +10,25 @@ public class Main {
 
 	Sound sound = new Sound();
 
-	MadeOf madeOf = new MadeOf("Wood");
-	MadeOf madeOf1 = new MadeOf("concrete");
-	MadeOf madeOf2 = new MadeOf("wall");
-	MadeOf madeOf3 = new MadeOf("car");
-	MadeOf madeOf4 = new MadeOf("metal");
+	MadeOf Wood = new MadeOf("Wood");
+	MadeOf concrete = new MadeOf("concrete");
+	MadeOf wall = new MadeOf("wall");
+	MadeOf car = new MadeOf("car");
+	MadeOf metal = new MadeOf("metal");
 
 
 
 
 
-        hammer.printSound(madeOf);
-        hammer.printSound(madeOf1);
-        hammer.printSound(madeOf2);
+        hammer.printSound(Wood);
+        hammer.printSound(concrete);
+        hammer.printSound(wall);
 
-        drill.printSound(madeOf);
-        drill.printSound(madeOf2);
+        drill.printSound(Wood);
+        drill.printSound(wall);
 
-        brush.printSound(madeOf3);
-        brush.printSound(madeOf4);
+        brush.printSound(car);
+        brush.printSound(metal);
 
         sound.printEmit(hammer);
         sound.printEmit(drill);
