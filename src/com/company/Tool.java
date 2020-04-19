@@ -21,18 +21,19 @@ public abstract class Tool implements PrintSound, PrintEmit {
                 return message1;
             } else if (madeOf.getMaterial().equals(material2)){
                 return message2;
-            }else{
+            }
                 return "Silence";
             }
-        }
+
+
+
 
         public String emits(Tool tool) {
         if(tool.getTypeOfTool().equals("hammer")) {
             return "Bang";
         }else if (tool.getTypeOfTool().equals("drill")) {
             return "Whirr";
-        }else{
-            return "Slosh, slosh...";
-        }
+        }return "Slosh, slosh...";
+
     }
 }

@@ -12,9 +12,8 @@ public class Sound implements PrintEmit {
             return "Bang";
         }else if (tool.getTypeOfTool().equals("drill")) {
             return "Whirr";
-        }else{
-            return "Slosh, slosh...";
-        }
+        }return "Slosh, slosh...";
+
     }
 
     @Override
