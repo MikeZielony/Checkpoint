@@ -4,17 +4,17 @@ public class Main {
 
     public static void main(String[] args) {
 
-	Tool hammer = new Hammer("hammer", "Metal");
-	Tool drill = new Drill("drill", "Plastic");
-	Tool brush = new Brush("brush", "hair");
+        Tool hammer = new Hammer("hammer", "Metal");
+        Tool drill = new Drill("drill", "Plastic");
+        Tool brush = new Brush("brush", "hair");
 
-	Sound sound = new Sound();
+        Sound sound = new Sound();
 
-	MadeOf Wood = new MadeOf("Wood");
-	MadeOf concrete = new MadeOf("concrete");
-	MadeOf wall = new MadeOf("wall");
-	MadeOf car = new MadeOf("car");
-	MadeOf metal = new MadeOf("metal");
+        MadeOf Wood = new MadeOf("Wood");
+        MadeOf concrete = new MadeOf("concrete");
+        MadeOf wall = new MadeOf("wall");
+        MadeOf car = new MadeOf("car");
+        MadeOf metal = new MadeOf("metal");
 
 
 
@@ -40,3 +40,5 @@ public class Main {
 
     }
 }
+
+
